@@ -1,0 +1,3 @@
+// Type Guard Example: checking types at runtime
+
+// in type

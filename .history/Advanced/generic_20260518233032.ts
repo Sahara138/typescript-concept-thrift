@@ -1,0 +1,13 @@
+// dynamically generalize
+
+// type GenericArray<value> = Array<value>;
+type GenericArray<value> = Array<value>;
+
+// const friends : string[] = ['Alice', 'Bob', 'Charlie'];
+const friends : GenericArray<string> = ['Alice', 'Bob', 'Charlie'];
+
+// const rollNumbers : number[] = [1, 2, 3, 4, 5];
+const rollNumbers : GenericArray<number> = [1, 2, 3, 4, 5];
+
+// const isEligible : boolean[] = [true, false, true, true, false];
+const iseligible : GenericArray<boolean> = [true, false, true, true, false];
